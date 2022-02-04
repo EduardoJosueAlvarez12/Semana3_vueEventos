@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- css stylesheet -->
+    <LINK rel=StyleSheet href="estilo.css" type="text/css">
+
+    <title>Práctica Semana 3</title>
+</head>
+<body>
+    <!-- CDN de Vue -->
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+
+        <div id="app" class="container" v-bind:style="{'background-color': actColor}">
+            <div class="center">
+                <input class="center" v-on:keydown="tipoDeEntrada" v-model="inputText">
+            </div>
+        </div>
+
+    <script src="sample.js"></script>
+</body>
+</html>
